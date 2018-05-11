@@ -1,0 +1,18 @@
+/* Universal selector - the background property is set to repeating-linear-gradient function that 
+displays repeatedly the color gradient from bottom to top on the entire web page */
+*   {
+        background: repeating-linear-gradient(to bottom,lightyellow,yellow);
+    }
+
+header {
+        
+        height: 70px;          /* the header selector height is set to 70px */
+        width: 140px;          /* the header selector width is set to 140px */ 
+        border: 1px;           /* the header selector border is set to 1px */
+        color: white;        /* the foreground/text color of the header is set to white color */
+        padding: 20px;         /* internal spacing within the header selector is set to 20px */
+        background: blue;    /* the header selector displays a blue background */
+        text-align: center;    /* text is aligned at the center */
+        border-radius: 50%;    /* an elliptical header selector is formed */
+    
+        }
